@@ -1,0 +1,76 @@
+body{
+ margin: 0px;
+}
+
+.div-1{
+    background-color: #f29594;
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.div-2{
+    background-color: #98b9ed;
+    width: 70%;
+    height: 10%;
+    float: left;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-shadow: 2px 1px #F0FFF0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-style: oblique;
+    font-size: 20px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+}
+
+.div-3{
+    background-color: #F0FFF0;
+    width: 70%;
+    height: 90%;
+    float: left;
+}
+
+.campo-formulario{
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid  1px #CCC;
+    border-radius: 2px;
+    font-family: Arial;
+    float: left;
+}
+
+.tabela-formulario tr td{
+    padding-top: 3px;
+}
+
+.botao-formulario{
+    background-color: #088A68;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    border: solid 1px #088A68;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.botao-formulario:hover{
+    background-color: #04B486;
+    cursor: pointer;
+}
+
+.campo-obrigatorio{
+    border: solid 1px rgb(255, 70, 70);
+}
+
+.botao-lateral{
+    background-color: #67B580;
+    width: 360px;
+    height: 60px;
+    margin-left: 45px;
+    border-radius: 3px;
+}
