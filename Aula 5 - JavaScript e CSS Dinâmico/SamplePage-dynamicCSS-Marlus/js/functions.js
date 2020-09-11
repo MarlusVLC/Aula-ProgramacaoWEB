@@ -7,15 +7,26 @@ $(document).ready(function(){
         campos.forEach(alertaNaoPreenchido);
         campos.forEach(pararAlerta);
         checaSenha(); 
-        for (var i = 0; i < campos.length; i++){
-            if (checaPreenchimento(campos[i]) == false){
-                break;
-            }
+        // var estaPreenchido = true;
+        // for (var i = 0; i < campos.length; i++){
+        //     if (!checaPreenchimento(campos[i])){
+        //         estáPreenchido = false;
+        //     }
+        // alert(estaPreenchido0);
+        // }
+        // if (estaPreenchido){
+        //     campos.forEach(limpaCampos);
+        //     retornaFoco();
+        // }
+        // alert(camposPreenchidos_Todos(campos))
+        if (camposPreenchidos_Todos(campos)){
             campos.forEach(limpaCampos);
-            retornaFoco();
+            retornaFoco;
         }
     });
 });
+
+
 
 function alertaNaoPreenchido(campo){
     if ($(campo).val() == ("")){
@@ -33,14 +44,18 @@ function checaSenha(){
     if ($("#senha").val() != $("#confirmarSenha").val()){
         $("#senha").addClass("campo-obrigatorio");
         $("#confirmarSenha").addClass("campo-obrigatorio");
+        alert("Senhas não conferem");
     }
 }
 
-function checaPreenchimento(campo){
-    if($(campo).val() != ("")){
-        return true;
+function camposPreenchidos_Todos(listaCampos){
+    estaPreenchido = true;
+    for (var i = 0; i < listaCampos.length; i++){
+        if ($(listaCampos[i]).val() == ("")){
+            estaPreenchido = false;
+        }
     }
-    return false;
+    return estaPreenchido;
 }
 
 
