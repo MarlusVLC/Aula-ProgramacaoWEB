@@ -1,0 +1,51 @@
+@font-face{
+    font-family: Comina;
+    src: url(../fonts/Comina.ttf);
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.campo{
+    padding: 5px;
+    border: solid 1px #3d2b2b;
+    border-radius:  30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.tabela{
+    /* border: 2px solid black;
+    border-color: seashell; */
+    width: 400px;
+}
+
+.display-texto{
+    padding-top:14% ;
+    /* height: 1px;  */
+    /* text-align: center; */
+     /* margin-top: 10000px; */
+    /* top: 50px; */
+    /* color: rgb(254, 128, 128) */
+}
+
+.display-titulo{
+    text-align: center;
+    font-family: Comina;
+    /* padding-top:10px; */
+    /* margin-top: 20px; */
+    bottom: 20px;
+}
+
+
+.op-button{
+    align-content: center;
+    background-color: #525252;
+    width: 100%;
+    height: 20px;
+    border: solid 1px #3d2b2b;
+    border-radius: 4px;
+}

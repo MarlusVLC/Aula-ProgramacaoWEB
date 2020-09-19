@@ -7,18 +7,6 @@ $(document).ready(function(){
         campos.forEach(alertaNaoPreenchido);
         campos.forEach(pararAlerta);
         checaSenha(); 
-        // var estaPreenchido = true;
-        // for (var i = 0; i < campos.length; i++){
-        //     if (!checaPreenchimento(campos[i])){
-        //         estáPreenchido = false;
-        //     }
-        // alert(estaPreenchido0);
-        // }
-        // if (estaPreenchido){
-        //     campos.forEach(limpaCampos);
-        //     retornaFoco();
-        // }
-        // alert(camposPreenchidos_Todos(campos))
         if (camposPreenchidos_Todos(campos)){
             campos.forEach(limpaCampos);
             retornaFoco;

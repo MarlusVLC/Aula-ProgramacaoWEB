@@ -1,0 +1,106 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="css/spotifytest.css"> -->
+
+        <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+
+        <script type="text/javascript" src="js/functions.js"></script>
+
+    </head>
+    <body>
+        <div>
+            <table class="tabela" border="2" >
+                <tr>
+                    <td colspan="2" class="display-titulo">
+                        <h1> ADICIONAR MUSICA </h1>
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td >
+                        <h3 class="display-texto" > Nome da Música </h3>
+                    </td>
+
+                    <td>
+                        <input type="text" id="iMusicaNome" class="campo" /> 
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <button id="bAddMusica" class="op-button"> + </button>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+
+        <br>
+
+        <div>
+            <table class="tabela" border="2">
+                <tr >
+
+                    <td colspan="2" class="display-titulo">
+                        <h1> REMOVER MUSICA </h1>
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td >
+                        <h3 class="display-texto"> Posição a Remover </h3>
+                    </td>
+
+                    <td >
+                        <input type="text" id="iPosRemover" size="2" 
+                        class="campo" />
+                    </td>
+
+                </tr>
+
+                
+                <tr>
+
+                    <td >
+                        <h3 class="display-texto"> Quantidade a Remover </h3>
+                    </td>
+
+                    <td >
+                        <input type="text" id="iQtdRemover"  size="2"
+                        class="campo"/>
+                    </td>
+
+                </tr>
+            
+
+                <tr>
+
+                    <td colspan="2">
+                        <button id="bPopMusica" class = "op-button"> - </button>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+
+        <br>
+
+            <tr>
+                <td>
+                    <h2>Lista de Músicas</h2>
+                </td>
+            </tr>
+
+        <div id="divListaMusica">
+            
+        </div>
+    </body>
+
+</html>
